@@ -1,20 +1,16 @@
 {
-  "name": "casino-frontend",
+  "name": "casino-frontend-nextjs",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000"
   },
   "dependencies": {
+    "next": "14.0.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-router-dom": "6.14.1",
     "axios": "1.4.0"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-react": "4.0.0",
-    "vite": "5.0.0"
   }
 }
